@@ -18,5 +18,21 @@ print(st.lower())
 print(st.title())
 #split the string using delimiter by deafult space
 print(st.split())
+st="Shrawani @123%"
+#seperate the two strings using some seperator
+print(st.partition('@'))
+#To change the case lower to upper and vice versa
+print(st.swapcase())
+#To check whether the string contains any alpha characters
+print(st.isalpha())
+#To check whether the string contains any alphanumeric characters
+print(st.isalnum())
+#To check whether the string starts with particular substring or character
+print(st.startswith('S'))
+#To check whether the string ends with particular substring or character
+print(st.endswith('p'))
+#To find the last position of a substring or character
+print(st.rfind('123'))
+
 
 
